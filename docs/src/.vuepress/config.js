@@ -51,9 +51,7 @@ module.exports = {
       {
         collapsable: false,
         title: "Teams",
-        children: [
-          "/getting-started/projects",
-        ],
+        children: ["/getting-started/projects"],
       },
       {
         collapsable: false,
@@ -69,9 +67,7 @@ module.exports = {
       {
         collapsable: false,
         title: "CLI",
-        children: [
-          "/cli/commands",
-        ],
+        children: ["/cli/commands"],
       },
       {
         collapsable: false,
@@ -81,12 +77,20 @@ module.exports = {
           "/getting-started/publishing",
         ],
       },
+      {
+        collapsable: true,
+        title: "Examples",
+        children: ["/examples/list"],
+      },
     ],
 
     nav: [
       { text: "Rust", link: "https://docs.rs/anchor-lang/latest/anchor_lang/" },
-      { text: "TypeScript", link: "https://project-serum.github.io/anchor/ts/index.html" },
-      { text: "GitHub", link: "https://github.com/project-serum/anchor" }
+      {
+        text: "TypeScript",
+        link: "https://project-serum.github.io/anchor/ts/index.html",
+      },
+      { text: "GitHub", link: "https://github.com/project-serum/anchor" },
     ],
   },
 
